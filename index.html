@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todo List</title>
+ 
+  <link rel="stylesheet" href="todolist.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script async defer src="todolist3.js"></script>
+
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+  <h1 class="text-center my-4 display-4">Todo List</h1>
+  <div class="container">
+    <div class="row">
+      <input id="newtask" placeholder="Write new task here" type="text" class="form-control col mx-2 my-4">
+      <div class="btn-group my-4">
+        <button id="addbtn" class="btn btn-success  mx-1"> Add Task </button>
+        <button id="clearbtn" class="btn btn-danger  mx-1"> Clear </button>
+        <button id="sortbtn" class="btn btn-warning  mx-1">Sort </button>
+      </div>
+    </div>
+    <div class="row">
+      <ul id="tasklist" class="list-group col mx-4 my-2" type="none">
+        <!-- <li class="list-group-item list-group-item-info d-flex justify-content-between align-items-center">
+            <h5>Do Homework </h5>
+           <div class="btn-group">
+              <i class="fas fa-arrow-up fa-2x mx-2" id="up"></i>
+              <i class="fas fa-arrow-down fa-2x mx-2" id="down"></i>
+           <div class="btn btn-secondary" id="btn-done" style="color:whitesmoke;">Not Done</div>
+           <div class="btn" style="background-color:coral; color: #f5f5f5;">Delete</div>
+         </div>
+          </li> -->
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
